@@ -1,4 +1,6 @@
 .footer-outer-container{
+  margin-top: 100px;
+  width: 100%;
   background-color: #111;
   color: grey;
   /* display: flex; */

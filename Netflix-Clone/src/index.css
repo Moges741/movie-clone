@@ -14,5 +14,6 @@
   box-sizing: border-box;
 }
 body{
-  background: #111;
+  background: var(--bg-color);
+  overflow-x: hidden;
 }
