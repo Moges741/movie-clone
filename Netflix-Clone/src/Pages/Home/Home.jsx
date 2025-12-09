@@ -7,7 +7,6 @@ import RowList from '../../Components/Rows/RowList/RowList'
 const  Home = () => {
   return (
     <div>
-      {/* <Header /> */}
       <Banner />
       <RowList />
       <Footer />

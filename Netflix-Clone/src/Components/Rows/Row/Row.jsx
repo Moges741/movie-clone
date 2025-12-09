@@ -20,7 +20,6 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
       }
     })();
   }, [fetchUrl]);
-
 const handleClick = (movie) => {
   if (trailerUrl) {
     setTrailerUrl(""); // close old trailer first
@@ -39,7 +38,6 @@ const handleClick = (movie) => {
     height: "390",
     width: "640",
     zIndex: "1000",
-
     playerVars: { autoplay: 1 },
   };
 

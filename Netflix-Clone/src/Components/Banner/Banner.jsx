@@ -5,7 +5,8 @@ import "./banner.css";
 import netflixLogo from "../../assets/images/Netflix_2015_logo.svg.png";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";const Banner = () => {
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+const Banner = () => {
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
@@ -17,7 +18,7 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";const Banner =
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
+  
 const [movie, setMovie] = useState({});
 
   useEffect(() => {
